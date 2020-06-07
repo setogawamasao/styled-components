@@ -4,13 +4,12 @@ import styled from "styled-components";
 const App = () => {
   return (
     <>
-      <h1>HELLO REACT + TYPESCRIPT WORLD</h1>
-      <Red>test</Red>
+      <Button>hello styled-component!</Button>
     </>
   );
 };
 
-const Red = styled.button`
+const Button = styled.div`
   color: red;
 `;
 
